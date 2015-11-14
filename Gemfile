@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby “2.2.0”
 gem 'rails', '4.2.0'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -12,7 +13,6 @@ gem 'devise'
 gem 'foundation-rails', '5.4.5'
 gem 'simple_form'
 gem 'rails_12factor', group: :production
-ruby ‘2.2.0’
 
 group :development do
   gem 'sqlite3'
