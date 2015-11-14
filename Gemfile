@@ -11,6 +11,7 @@ gem 'spring',        group: :development
 gem 'devise'
 gem 'foundation-rails', '5.4.5'
 gem 'simple_form'
+gem 'rails_12factor', group: :production
 
 group :development do
   gem 'sqlite3'
