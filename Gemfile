@@ -12,6 +12,7 @@ gem 'devise'
 gem 'foundation-rails', '5.4.5'
 gem 'simple_form'
 gem 'rails_12factor', group: :production
+ruby ‘2.2.0’
 
 group :development do
   gem 'sqlite3'
